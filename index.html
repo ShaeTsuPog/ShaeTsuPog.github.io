@@ -1,7 +1,25 @@
 <!DOCTYPE html>
 <html>
+<head>
+  <title>Pokemon Pokedex</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
 <body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+  <header>
+    <h1>Victory Star Pokedex</h1>
+    <input type="text" id="searchInput" placeholder="Search Pokemon...">
+    <div id="typeFilters">
+      <label><input type="checkbox" name="typeFilter" value="normal">Normal</label>
+      <label><input type="checkbox" name="typeFilter" value="fire">Fire</label>
+      <label><input type="checkbox" name="typeFilter" value="water">Water</label>
+      <!-- Add more type filters here -->
+    </div>
+  </header>
+  <div id="content">
+    <div id="pokemonList"></div>
+    <div id="pokemonDetails"></div>
+  </div>
+
+  <script src="script.js"></script>
 </body>
 </html>
