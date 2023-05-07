@@ -1,15 +1,32 @@
 header {
     background-color: #f2f2f2;
-    padding: 20px;
+    padding: 10px;
   }
   
-  #searchInput {
+  h1 {
+    margin: 0;
+  }
+  
+  #navbar {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  
+  #searchBar {
     margin-right: 10px;
-    padding: 5px;
   }
   
-  #typeFilters {
-    margin-top: 10px;
+  #searchBar label {
+    margin-right: 5px;
+  }
+  
+  #typeDropdown label {
+    margin-right: 5px;
+  }
+  
+  #typeSelect {
+    padding: 5px;
   }
   
   #content {

@@ -6,13 +6,22 @@
 </head>
 <body>
   <header>
-    <h1>Victory Star Pokedex</h1>
-    <input type="text" id="searchInput" placeholder="Search Pokemon...">
-    <div id="typeFilters">
-      <label><input type="checkbox" name="typeFilter" value="normal">Normal</label>
-      <label><input type="checkbox" name="typeFilter" value="fire">Fire</label>
-      <label><input type="checkbox" name="typeFilter" value="water">Water</label>
-      <!-- Add more type filters here -->
+    <h1>Pokemon Pokedex</h1>
+    <div id="navbar">
+      <div id="searchBar">
+        <label for="searchInput">Search Pokemon:</label>
+        <input type="text" id="searchInput" placeholder="Search...">
+      </div>
+      <div id="typeDropdown">
+        <label for="typeSelect">Filter by Type:</label>
+        <select id="typeSelect">
+          <option value="">All Types</option>
+          <option value="normal">Normal</option>
+          <option value="fire">Fire</option>
+          <option value="water">Water</option>
+          <!-- Add more type options here -->
+        </select>
+      </div>
     </div>
   </header>
   <div id="content">
